@@ -7,16 +7,12 @@ namespace Loupedeck.LitraGlowCCPlugin.Actions
         // Initializes the command class.
         public ToggleCommand()
         {
-            this.Name = "ToggleLights";
+            this.Name = "ToggleCommands";
             this.Description = "Toggles the state of the selected Litra Glow devices.";
             this.GroupName = "Commands";
             this.DisplayName = "Toggle Lights";
 
-            var lights = LitraDriver.FindDevices();
-            foreach (Device device in lights)
-            {
-                this.ActionEditor.AddControlEx(new ActionEditorCheckbox("checkbox_" + device.SerialNumber, device.Type.ToString() + " - " + device.SerialNumber));
-            }
+            Helpers.Utils.CreateDeviceToggles(this);
         }
 
         // This method is called when the user executes the command.
@@ -25,7 +21,7 @@ namespace Loupedeck.LitraGlowCCPlugin.Actions
             var devices = LitraDriver.FindDevices();
             foreach (Device device in devices)
             {
-                if (actionParameters.GetString("checkbox_" + device.SerialNumber) == "true")
+                if (actionParameters.GetString(device.SerialNumber) == "true")
                 {
                     LitraDriver.Toggle(device);
                 }
