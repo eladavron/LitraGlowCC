@@ -2,7 +2,7 @@ namespace Loupedeck.LitraGlowCCPlugin.Helpers
 {
     public static class Utils
     {
-        public static void CreateDeviceToggles(ActionEditorCommand command)
+        public static void CreateDeviceToggles(ActionEditorAction action)
         {
             var lights = LitraDriver.FindDevices();
             var devices = new Dictionary<String, Device>();
@@ -10,9 +10,9 @@ namespace Loupedeck.LitraGlowCCPlugin.Helpers
             {
                 devices[device.SerialNumber] = device;
                 ActionEditorCheckbox checkbox = new(device.SerialNumber, device.Type.ToString());
-                command.ActionEditor.AddControlEx(checkbox);
+                action.ActionEditor.AddControlEx(checkbox);
             }
-            command.ActionEditor.ControlValueChanged += (sender, e) =>
+            action.ActionEditor.ControlValueChanged += (sender, e) =>
             {
                 PluginLog.Info("Updating checkbox state for device: " + e.ControlName);
                 if (devices.TryGetValue(e.ControlName, out Device device))
