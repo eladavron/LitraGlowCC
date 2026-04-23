@@ -7,7 +7,7 @@ namespace Loupedeck.LitraGlowCCPlugin.Actions
         // Initializes the command class.
         public ToggleCommand()
         {
-            this.Name = "ToggleCommands";
+            this.Name = "ToggleCommand";
             this.Description = "Toggles the state of the selected Litra Glow devices.";
             this.GroupName = "Commands";
             this.DisplayName = "Toggle Lights";
