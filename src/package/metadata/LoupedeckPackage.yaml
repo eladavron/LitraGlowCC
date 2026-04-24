@@ -18,7 +18,7 @@ description: Creative Console Plugin for controlling Logi Litra lights.
 pluginFileName: LitraGlowCCPlugin.dll
 
 # Plugin version.
-version: 0.0.1
+version: 0.0.2
 
 # Author of the plugin. The author can be a company or an individual developer.
 author: Elad Avron

@@ -25,9 +25,9 @@ namespace Loupedeck.LitraGlowCCPlugin.Helpers
         {
             for (var i = 0; i < times; i++)
             {
-                LitraDriver.TurnOn(device);
+                LitraDriver.Toggle(device);
                 Thread.Sleep(delay);
-                LitraDriver.TurnOff(device);
+                LitraDriver.Toggle(device);
                 if (i < times - 1)
                 {
                     Thread.Sleep(delay);
