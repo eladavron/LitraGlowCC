@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 144 144"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="TemperatureCommand.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="35.5625"
+     inkscape:cx="21.103691"
+     inkscape:cy="8.0843585"
+     inkscape:window-width="3840"
+     inkscape:window-height="2036"
+     inkscape:window-x="4468"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <rect
+     fill="#ffffff"
+     height="12.705483"
+     id="svg_1"
+     rx="2.1249197"
+     width="25.499035"
+     x="59.244583"
+     y="112.32015"
+     style="stroke-width:1.06062" />
+  <rect
+     fill="#ffffff"
+     height="8.4703217"
+     id="svg_2"
+     rx="3.1873794"
+     width="29.748873"
+     x="57.119663"
+     y="122.90806"
+     style="stroke-width:1.06062" />
+  <rect
+     fill="#ffffff"
+     height="4.2351608"
+     id="svg_3"
+     width="16.999357"
+     x="63.494423"
+     y="117.61411"
+     style="stroke-width:1.06062" />
+  <rect
+     fill="#ffffff"
+     fill-opacity="0.01"
+     height="84.703224"
+     id="svg_4"
+     rx="19.124277"
+     ry="19.058226"
+     stroke="#ffffff"
+     stroke-width="8.48502"
+     width="84.99678"
+     x="29.495708"
+     y="17.02903" />
+  <rect
+     fill="#ffffff"
+     height="10.587903"
+     id="svg_21"
+     width="4.2498393"
+     x="69.869179"
+     y="101.73226"
+     style="stroke-width:1.06062" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;stroke-width:0.925829;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="m 58.675384,26.304002 c -7.300349,0 -13.305157,5.949503 -13.305157,13.236445 v 26.543406 c -2.049286,2.761739 -3.330812,6.149754 -3.330812,9.829688 0,9.11163 7.498377,16.543741 16.635969,16.543741 9.137585,0 16.637773,-7.432111 16.637773,-16.543741 0,-3.679934 -1.281526,-7.067949 -3.330812,-9.829688 V 39.540447 c 0,-7.286942 -6.006619,-13.236445 -13.306961,-13.236445 z m 23.308429,3.305493 a 3.318046,3.318046 0 0 0 -3.318149,3.318154 3.318046,3.318046 0 0 0 3.318149,3.318151 h 16.646819 a 3.318046,3.318046 0 0 0 3.318148,-3.318151 3.318046,3.318046 0 0 0 -3.318148,-3.318154 z m -23.308429,3.330811 c 3.753756,0 6.670656,2.909239 6.670656,6.600141 v 27.610279 a 3.3183779,3.3183779 0 0 0 0.826376,2.191607 c 1.559486,1.773544 2.504436,4.069591 2.504436,6.571208 0,5.503447 -4.422448,9.909247 -10.001468,9.909247 -5.57902,0 -9.999664,-4.4058 -9.999664,-9.909247 0,-2.501617 0.94495,-4.797664 2.504436,-6.571208 A 3.3183779,3.3183779 0 0 0 52.00472,67.150726 V 39.540447 c 0,-3.690902 2.916908,-6.600141 6.670664,-6.600141 z m 23.308429,9.896593 a 3.318046,3.318046 0 0 0 -3.318149,3.318151 3.318046,3.318046 0 0 0 3.318149,3.31815 h 16.646819 a 3.318046,3.318046 0 0 0 3.318148,-3.31815 3.318046,3.318046 0 0 0 -3.318148,-3.318151 z m -23.308429,3.305494 a 3.318046,3.318046 0 0 0 -3.316345,3.318154 v 20.854628 c -1.945563,1.159636 -3.330812,3.189163 -3.330812,5.598366 0,3.641031 3.018544,6.625457 6.647157,6.625457 3.628606,0 6.64896,-2.984426 6.64896,-6.625457 0,-2.408858 -1.385707,-4.43862 -3.330811,-5.598366 V 49.460547 a 3.318046,3.318046 0 0 0 -3.318149,-3.318154 z m 29.966435,9.920097 a 3.318046,3.318046 0 0 0 -3.318156,3.318154 3.318046,3.318046 0 0 0 3.318156,3.318153 h 9.988813 a 3.318046,3.318046 0 0 0 3.318148,-3.318153 3.318046,3.318046 0 0 0 -3.318148,-3.318154 z"
+     id="path13" />
+</svg>
