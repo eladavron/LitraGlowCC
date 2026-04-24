@@ -1,3 +1,9 @@
+/**
+ * Originally created by Tim Rogers in TypeScript at https://github.com/timrogers/litra
+ * Ported to C# by Elad Avron using GitHub CoPilot
+**/
+
+
 #nullable enable
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
