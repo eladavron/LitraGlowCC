@@ -15,11 +15,6 @@ namespace Loupedeck.LitraGlowCCPlugin
         // Initializes a new instance of the plugin class.
         public LitraGlowCCPlugin()
         {
-            // Initialize the plugin log.
-            PluginLog.Init(this.Log);
-
-            // Initialize the plugin resources.
-            PluginResources.Init(this.Assembly);
         }
 
         // This method is called when the plugin is loaded.

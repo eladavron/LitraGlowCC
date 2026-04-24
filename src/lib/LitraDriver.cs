@@ -1,3 +1,4 @@
+#nullable enable
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
@@ -170,6 +171,25 @@ public class LitraDriver
         Write(device, GenerateGetTemperatureInKelvinBytes(device));
         var data = Read(device);
         return data[4] * 256 + data[5];
+    }
+
+    public static Int32 GetTemperatureInPercent(Device device)
+    {
+        var current = GetTemperatureInKelvin(device);
+        var allowed = AllowedTemperaturesInKelvinByDeviceType[device.Type];
+        var min = allowed.Min();
+        var max = allowed.Max();
+        return (current - min) * 100 / (max - min);
+    }
+
+    public static void SetTemperatureInPercent(Device device, Int32 percent)
+    {
+        var allowed = AllowedTemperaturesInKelvinByDeviceType[device.Type];
+        var min = allowed.Min();
+        var max = allowed.Max();
+        var kelvin = (percent * (max - min) / 100) + min;
+        var nearestKelvin = allowed.OrderBy(t => Math.Abs(t - kelvin)).First();
+        SetTemperatureInKelvin(device, nearestKelvin);
     }
 
     public static void SetBrightnessInLumen(Device device, Int32 lumen)

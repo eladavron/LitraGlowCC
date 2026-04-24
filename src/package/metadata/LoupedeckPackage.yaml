@@ -9,7 +9,7 @@ type: plugin4
 name: LitraGlowCC
 
 # Plugin name that is shown to the user.
-displayName: LitraGlowCC
+displayName: Litra Glow Creative Console
 
 # Short description of the plugin.
 description: Add a short description of the plugin here.
@@ -21,10 +21,10 @@ pluginFileName: LitraGlowCCPlugin.dll
 version: 1.0
 
 # Author of the plugin. The author can be a company or an individual developer.
-author: elada
+author: Elad Avron
 
 # Copyright information.
-copyright: Copyright © 2026 elada. All rights reserved.
+copyright: Copyright © 2026 Elad Avron. All rights reserved.
 
 
 # ==================================================================================================

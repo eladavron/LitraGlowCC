@@ -14,7 +14,6 @@ namespace Loupedeck.LitraGlowCCPlugin.Helpers
             }
             action.ActionEditor.ControlValueChanged += (sender, e) =>
             {
-                PluginLog.Info("Updating checkbox state for device: " + e.ControlName);
                 if (devices.TryGetValue(e.ControlName, out Device device))
                 {
                     FlashDevice(device);
