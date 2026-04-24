@@ -18,7 +18,7 @@ description: Creative Console Plugin for controlling Logi Litra lights.
 pluginFileName: LitraGlowCCPlugin.dll
 
 # Plugin version.
-version: 1.0
+version: 0.0.1
 
 # Author of the plugin. The author can be a company or an individual developer.
 author: Elad Avron
@@ -77,4 +77,4 @@ licenseUrl: https://opensource.org/licenses/MIT
 #supportPageUrl: https://github.com/myusername/myplugin/issues
 
 # URL of the plugin homepage. The URL is shown in Loupedeck Marketplace.
-#homePageUrl: https://github.com/myusername/myplugin
+homePageUrl: https://github.com/eladavron/LitraGlowCC
