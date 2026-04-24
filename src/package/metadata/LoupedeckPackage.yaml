@@ -9,10 +9,10 @@ type: plugin4
 name: LitraGlowCC
 
 # Plugin name that is shown to the user.
-displayName: Litra Glow Creative Console
+displayName: Litra
 
 # Short description of the plugin.
-description: Add a short description of the plugin here.
+description: Creative Console Plugin for controlling Logi Litra lights.
 
 # Name of the plugin library file.
 pluginFileName: LitraGlowCCPlugin.dll

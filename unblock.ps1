@@ -1,0 +1,1 @@
+Remove-Item $env:USERPROFILE\AppData\Local\Logi\LogiPluginService\Logs\plugin_crashes\LitraGlowCCPlugin.dll
