@@ -5,6 +5,16 @@ A plugin for the Logitech Creative Console that allows you to control the Litra 
 
 This project uses and builds upon the excellent [`litra`](https://github.com/timrogers/litra) package by [timrogers](https://github.com/timrogers), converted to C# by myself using GitHub Copilot.
 
+## Supported Devices
+
+- Litra Glow
+- Litra Beam (untested)
+- Litra Beam LX (untested)
+
+The plugin was only tested with the **Litra Glow** as it is the only one I have.
+
+If you have either of the Litra Beams, feel free to open a pull request with any necessary changes to support it.
+
 ## Features
 
 - Toggle lights on/off
